@@ -39,7 +39,7 @@ h2 {
   background-color: blue;
   height: 4vh;
   width: 20vw;
-  margin-right: 20px;
+  margin-right: 5vw;
   border: 4px;
   border-color: black;
   border-style: solid;
@@ -49,8 +49,8 @@ h2 {
   background-color: darkred;
   height: 4vh;
   width: 60vw;
-  margin-left: 10px;
-
+  margin-right: 4vw;
+  margin-left: 3vw;
   border: 4px;
   border-color: black;
   border-style: solid;
