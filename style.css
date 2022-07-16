@@ -1,0 +1,96 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: gray;
+  height: 30vh;
+  color: black;
+}
+h1 {
+  text-align: left;
+  color: black;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+.menu1 {
+  background-color: green;
+  align-self: flex-start;
+  height: 10vh;
+  width: 20vw;
+}
+.logo {
+  background-color: blue;
+  align-self: flex-end;
+  height: 10vh;
+  width: 57vw;
+}
+.menu2 {
+  background-color: darkred;
+  align-self: flex-end;
+  height: 10vh;
+  width: 36vw;
+}
+.padreCentroSuperior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.izquierda {
+  background-color: lightslategray;
+  height: 55vh;
+  width: 30vw;
+}
+.centro {
+  background-color: teal;
+  height: 55vh;
+  width: 30vw;
+}
+.derecha {
+  background-color: sandybrown;
+  height: 55vh;
+  width: 30vw;
+}
+.padreCentroInferior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.izquierda2 {
+  background-color: darkgreen;
+  height: 55vh;
+  width: 57vw;
+}
+.derecha2 {
+  background-color: saddlebrown;
+  height: 55vh;
+  width: 36vw;
+}
+
+.pie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  align-self: flex-end;
+
+  background-color: deepskyblue;
+  height: 30vh;
+
+  color: black;
+}
+.elemento {
+  background-color: blue;
+  height: 10vh;
+  width: 20vw;
+  align-self: flex-end;
+}
