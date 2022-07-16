@@ -33,7 +33,7 @@ h2 {
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 0.5%;
+  padding: 0.6%;
 }
 .logo {
   background-color: blue;
@@ -43,18 +43,18 @@ h2 {
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 0.5%;
+  padding: 0.6%;
 }
 .menu2 {
   background-color: darkred;
   height: 4vh;
   width: 60vw;
-  margin-right: 4vw;
+
   margin-left: 3vw;
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 0.5%;
+  padding: 0.6%;
 }
 .padreCentroSuperior {
   display: flex;
