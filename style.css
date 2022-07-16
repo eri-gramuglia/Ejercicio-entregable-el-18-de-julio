@@ -1,4 +1,4 @@
-* {
+div {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -6,74 +6,113 @@
 .encabezado {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
   background-color: gray;
-  height: 30vh;
+  height: 15vh;
   color: black;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
 h1 {
   text-align: left;
   color: black;
+  font-size: 1em;
 }
 h2 {
-  text-align: center;
+  text-align: left;
   color: white;
+  font-size: 1em;
 }
 .menu1 {
   background-color: green;
   align-self: flex-start;
-  height: 10vh;
+  height: 9vh;
   width: 20vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
 .logo {
   background-color: blue;
   align-self: flex-end;
-  height: 10vh;
+  height: 9vh;
   width: 57vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
 .menu2 {
   background-color: darkred;
   align-self: flex-end;
-  height: 10vh;
+  height: 9vh;
   width: 36vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
 .padreCentroSuperior {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .izquierda {
   background-color: lightslategray;
   height: 55vh;
-  width: 30vw;
+  width: 25vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
 }
 .centro {
   background-color: teal;
   height: 55vh;
-  width: 30vw;
+  width: 25vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
 }
 .derecha {
   background-color: sandybrown;
   height: 55vh;
-  width: 30vw;
+  width: 25vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
 }
 .padreCentroInferior {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  padding-bottom: 10px;
 }
 .izquierda2 {
   background-color: darkgreen;
   height: 55vh;
   width: 57vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
 }
 .derecha2 {
   background-color: saddlebrown;
   height: 55vh;
   width: 36vw;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
 
 .pie {
@@ -85,12 +124,18 @@ h2 {
 
   background-color: deepskyblue;
   height: 30vh;
-
   color: black;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
 .elemento {
   background-color: blue;
   height: 10vh;
   width: 20vw;
   align-self: flex-end;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
 }
