@@ -6,9 +6,9 @@ div {
 .encabezado {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
   background-color: gray;
   height: 15vh;
   color: black;
@@ -20,16 +20,16 @@ div {
 h1 {
   text-align: left;
   color: black;
-  font-size: 1em;
+  font-size: 0.5em;
 }
 h2 {
   text-align: left;
   color: white;
-  font-size: 1em;
+  font-size: 0.5em;
 }
 .menu1 {
   background-color: green;
-  align-self: flex-start;
+  align-self: flex-end;
   height: 9vh;
   width: 20vw;
   border: 4px;
@@ -94,7 +94,6 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   padding-bottom: 10px;
 }
 .izquierda2 {
@@ -112,7 +111,6 @@ h2 {
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 10px;
 }
 
 .pie {
@@ -121,7 +119,6 @@ h2 {
   justify-content: space-around;
   align-items: left;
   align-self: flex-end;
-
   background-color: deepskyblue;
   height: 30vh;
   color: black;
