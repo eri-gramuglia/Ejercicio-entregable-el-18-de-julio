@@ -2,73 +2,73 @@ div {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.encabezado {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: flex-start;
-  background-color: gray;
-  height: 15vh;
-  color: black;
-  border: 4px;
-  border-color: black;
-  border-style: solid;
-  padding: 10px;
-}
 h1 {
   text-align: left;
   color: black;
-  font-size: 0.5em;
+  font-size: 0.9em;
 }
 h2 {
   text-align: left;
   color: white;
-  font-size: 0.5em;
+  font-size: 0.8em;
+}
+.encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: flex-start;
+  background-color: gray;
+  height: 20vh;
+  color: black;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding: 0.8%;
 }
 .menu1 {
   background-color: green;
-  align-self: flex-end;
-  height: 9vh;
+  height: 4vh;
   width: 20vw;
+  margin-left: 57vw;
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 10px;
+  padding: 0.5%;
 }
 .logo {
   background-color: blue;
-  align-self: flex-end;
-  height: 9vh;
-  width: 57vw;
+  height: 4vh;
+  width: 20vw;
+  margin-right: 20px;
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 10px;
+  padding: 0.5%;
 }
 .menu2 {
   background-color: darkred;
-  align-self: flex-end;
-  height: 9vh;
-  width: 36vw;
+  height: 4vh;
+  width: 60vw;
+  margin-left: 10px;
+
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 10px;
+  padding: 0.5%;
 }
 .padreCentroSuperior {
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 .izquierda {
   background-color: lightslategray;
   height: 55vh;
-  width: 25vw;
+  width: 31.5vw;
   border: 4px;
   border-color: black;
   border-style: solid;
@@ -76,7 +76,7 @@ h2 {
 .centro {
   background-color: teal;
   height: 55vh;
-  width: 25vw;
+  width: 31.5vw;
   border: 4px;
   border-color: black;
   border-style: solid;
@@ -84,7 +84,7 @@ h2 {
 .derecha {
   background-color: sandybrown;
   height: 55vh;
-  width: 25vw;
+  width: 31.5vw;
   border: 4px;
   border-color: black;
   border-style: solid;
@@ -92,14 +92,15 @@ h2 {
 .padreCentroInferior {
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 0.5%;
 }
 .izquierda2 {
   background-color: darkgreen;
   height: 55vh;
-  width: 57vw;
+  width: 58vw;
   border: 4px;
   border-color: black;
   border-style: solid;
@@ -107,7 +108,7 @@ h2 {
 .derecha2 {
   background-color: saddlebrown;
   height: 55vh;
-  width: 36vw;
+  width: 38vw;
   border: 4px;
   border-color: black;
   border-style: solid;
@@ -116,21 +117,20 @@ h2 {
 .pie {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: left;
-  align-self: flex-end;
+  justify-content: space-between;
+  flex-grow: 1;
   background-color: deepskyblue;
-  height: 30vh;
+  height: 20vh;
   color: black;
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 10px;
+  padding: 0.5%;
 }
 .elemento {
   background-color: blue;
-  height: 10vh;
-  width: 20vw;
+  height: 5vh;
+  width: 10vw;
   align-self: flex-end;
   border: 4px;
   border-color: black;
