@@ -33,7 +33,7 @@ h2 {
   border: 4px;
   border-color: black;
   border-style: solid;
-  padding: 0.6%;
+  padding-bottom: 0.8%;
 }
 .logo {
   background-color: blue;
@@ -136,3 +136,8 @@ h2 {
   border-color: black;
   border-style: solid;
 }
+/* En los todos los Div padres, salvo el padre encabezado, 
+cuando minimizo o maximizo la ventana, se mantiennen las proporciones 
+de sus propiedades.
+En el caso del padre encabezado, los Div hijos no así, porque no
+pude lograr lo mismo que los Div anteriores*/
