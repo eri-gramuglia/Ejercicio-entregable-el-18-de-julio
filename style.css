@@ -15,8 +15,8 @@ h2 {
 .encabezado {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
-  justify-content: flex-start;
+  flex-grow: 1; 
+  justify-content: flex-start; 
   background-color: gray;
   height: 20vh;
   color: black;
@@ -28,8 +28,8 @@ h2 {
 .menu1 {
   background-color: green;
   height: 4vh;
-  width: 20vw;
-  margin-left: 57vw;
+  width: 20vw; 
+  margin-left: 57vw;   
   border: 4px;
   border-color: black;
   border-style: solid;
